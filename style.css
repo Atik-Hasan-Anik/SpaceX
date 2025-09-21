@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(240, 240, 250, .9);
+   font-family: "poppins", "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body{
+      /* padding: 0 60px; */
+    position: relative;
+    background-color: #000;
+}
+
+/* navigation bar style  */
+
+header{
+    width: 100%;
+    /* position:absolute ; */
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+   padding: 0 60px;
+   position: relative;
+   z-index: 99;
+}
+
+nav .logo svg{
+ 
+ color: white;
+}
+
+nav .eliment ul{
+    display: flex;
+    align-items: center;
+   margin: 0 38px;
+   gap: 35px ;
+}
+
+nav .eliment ul li{
+    list-style: none;
+    font-family: "poppins", "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(240, 240, 250, .9);
+    transition: .2s;
+}
+
+nav .eliment ul li:hover{
+    color: white;
+
+
+}
+
+nav .selector{
+    height: 2rem;
+    width: 17rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 10px;
+    border: .1px solid rgba(255, 255, 255, 0.26);
+    border-radius: 4px;
+    position: absolute;
+    right: 60px;
+}
+
+nav .selector p{
+color: rgba(240, 240, 250, .9) ;
+font-size: 9.8px;
+letter-spacing: .6px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+
+/* main contant style  */
+main .top{
+   position: relative;
+    overflow: hidden;
+    display: block;
+    height: auto;
+}
+main .top video{
+    object-fit: cover;
+    object-position: center bottom;
+scale: 1.01;
+width: 100%;
+height: 100%;
+}
+
+main .top-text{
+    position: absolute;
+    left: 100px;
+   top: 36%;
+   /* background-color: crimson; */
+   max-width: 650px;
+  
+}
+
+main .top-text h2{
+    text-transform: uppercase;
+       text-transform: uppercase;
+    font-size: 2.8rem;
+    letter-spacing: -3px;
+    line-height: 48px;
+    font-family: arial;
+}
+
+main .top-text p{
+    margin: 15px 0 0 0;
+        font-size: 1rem;
+    font-weight: 250;
+    font-family: arial;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+main .top-text button{
+    font-size: .75rem;
+    font-weight: 500;
+    margin: 30px 0 0 0;
+    height: 50px;
+    padding: 0 20px;
+    outline: hidden;
+    color: rgba(255, 255, 255, 0.875);
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    border-radius: 3px;
+    background-color: transparent;
+    transition: .3s;
+}
+
+main .top-text button svg{
+    
+   color: white;
+}
+
+main .top-text button:hover{
+    background-color: white;
+    color: #000;
+}
+
+/* main contant style  */
+main .top-next{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: auto;
+   
+}
+
+main .top-next img{
+    width: 100%;
+    height: 100%;
+    opacity: .65;
+    object-fit: cover;
+}
+main .top-next-text{
+    position: absolute;
+ position: absolute;
+    right: 100px;
+    top: 17%;
+    max-width: 650px;
+}
+
+main .top-next-text h2{
+     text-transform: uppercase;
+    font-size: 2.8rem;
+    letter-spacing: 0px;
+    line-height: 54px;
+    font-family: arial;
+}
+
+main .top-next-text p{
+    margin: 15px 0 0 0;
+        font-size: .9rem;
+    font-weight: 250;
+    font-family: arial;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+main .top-next .btn1{
+    font-size: .75rem;
+    font-weight: 500;
+    margin: 30px 0 0 0;
+    padding: 0 20px;
+    height: 50px;
+    outline: hidden;
+    color: rgba(255, 255, 255, 0.875);
+    border: 1px solid rgba(255, 255, 255, 0.373);
+    border-radius: 5px;
+    background-color: #0f1e27b5;
+    transition: .3s;
+}
+
+main .top-next .btn1:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+/* main top-next1 contant style  */
+main .top-next1{
+   position: relative;
+    overflow: hidden;
+    display: block;
+    height: auto;
+}
+main .top-next1 video{
+    object-position: center bottom;
+opacity: 0.65;
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+main .top-next1-text{
+    position: absolute;
+    left: 100px;
+   top: 15%;
+   max-width: 650px;
+
+}
+
+main .top-next1-text h2{
+    text-transform: uppercase;
+       text-transform: uppercase;
+    font-size: 2.8rem;
+    letter-spacing:-2px;
+    line-height: 48px;
+    font-family: arial;
+     color: rgba(255, 255, 255, 0.945);
+}
+
+main .top-next1-text p{
+    margin: 15px 0 0 0;
+        font-size: 1rem;
+    font-weight: 250;
+    font-family: arial;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+main .top-next1 button{
+    font-size: .75rem;
+    font-weight: 500;
+    margin: 30px 0 0 0;
+    height: 50px;
+    padding: 0 20px;
+    outline: hidden;
+    color: rgba(255, 255, 255, 0.875);
+    border: 1px solid rgba(255, 255, 255, 0.36);
+    border-radius: 5px;
+    background-color: #0f1e279d;
+    transition: .3s;
+}
+
+main .top-next1 button:hover{
+    background-color: white;
+    color: #000;
+}
+
+/* main .top-next-text2 style  */
+main .top-next2 img{
+    opacity:1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+main .top-next-text1 h2{
+    color: white;
+}
+
+/* main .top-next-text3 style  */
+main .top-next3-text{
+    top: 40%;
+}
+
+main .top-next3-text h2{
+ 
+    color: white;
+}
+
+main .top-next3 video{
+    object-position: center bottom;
+opacity: 1;
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+
