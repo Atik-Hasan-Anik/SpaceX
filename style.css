@@ -216,6 +216,9 @@ main .top-next .btn1:hover{
     color: #000;
 }
 
+main .top-next .top-next-mobile{
+    display: none;
+}
 
 
 /* main top-next1 contant style  */
@@ -231,6 +234,10 @@ opacity: 0.65;
 object-fit: cover;
 width: 100%;
 height: 100%;
+}
+
+main .top-next1 .top-next1-mobile{
+    display: none;
 }
 
 main .top-next1-text{
@@ -313,10 +320,12 @@ height: 100%;
 
 /* footer style  */
 footer{
+    height: 60px;
     width: 100%;
     position: absolute;
     bottom: 0;
 left: 0;
+z-index: 66;
 }
 
 footer .footer-item{
@@ -407,27 +416,28 @@ main .top{
 
 main .top video {
 display: none;
-   /* height: auto; */
+   
 
 }
 
 main .top .mobile-video{
     display: block;
   
-scale: .85;
+scale: 1;
     object-fit: cover;
     object-position: 10px -120px;
 }
 
-main .top-text , main .top-next-text {
+main .top-text , main .top-next-text , main .top-next1 .top-next1-text {
+
     position: absolute;
     left: 15px;
-    top: 50%;
+   top: 50%;
     /* background-color: crimson; */
-    width: 85%;
+    width: 80%;
 }
 
-main .top-text h2 ,main .top-next-text h2 {
+main .top-text h2 ,main .top-next-text h2 , main .top-next1-text h2 {
     font-size: 2rem;
     letter-spacing: .5px;
     line-height: 38px;
@@ -435,7 +445,7 @@ main .top-text h2 ,main .top-next-text h2 {
     color: rgba(255, 255, 255, 0.84);
 }
 
-main .top-text p ,main .top-next-text p {
+main .top-text p ,main .top-next-text p , main .top-next1-text p  {
     margin: 8px 0 0 0;
     font-size: .9rem;
     font-weight: 250;
@@ -454,37 +464,44 @@ main .top-text button {
    
 }
 
+main .top-next{
+    height: 100vh;
+  
+}
 main .top-next img {
-    background-image: url("Image/Leading_Launch_Service_Mobile_02_41fdea4331.jpg");
-    width: 110%;
-    height: 80vh;
-    opacity: .65;
+   
+  display: none;
+
+}
+
+ main .top-next .top-next-mobile{
+    display: block;
+    height: 100vh;
+      box-shadow: inset 0 -700px 30px rgba(0, 0, 0, 0.745);
     object-fit: cover;
-    box-shadow: inset 0 -55px 5px rgba(143, 86, 86, 1);
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer{
-    display: none;
-}
+width: 100%;
     
+ }
+
+
+
+ main .top-next1 video {
+    display: none;
+ }
+
+ main .top-next1 .top-next1-mobile{
+    display: block;
+ }
+
+
+
+
+footer {
+    background-color: red;
+    position: absolute;
+}
+
+
+
+
 }
