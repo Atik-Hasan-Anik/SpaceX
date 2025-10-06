@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(240, 240, 250, .9);
+    font-family: Arial, Helvetica, sans-serif, "poppins", "Roboto";
+}
+
+body {
+    /* padding: 0 60px; */
+    position: relative;
+    background-color: #000;
+    height: auto;
+}
+
+/* navigation bar style  */
+
+header {
+    width: 100%;
+    /* position:absolute ; */
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    position: relative;
+    z-index: 99;
+}
+
+nav .logo svg {
+
+    color: white;
+}
+
+nav .eliment ul {
+    display: flex;
+    align-items: center;
+    margin: 0 38px;
+    gap: 35px;
+}
+
+nav .eliment ul li {
+    list-style: none;
+    font-family: "poppins", "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(240, 240, 250, .9);
+    transition: .2s;
+}
+
+nav .eliment ul li:hover {
+    color: white;
+
+
+}
+
+nav .selector {
+    height: 2rem;
+    width: 17rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 10px;
+    border: .1px solid rgba(255, 255, 255, 0.26);
+    border-radius: 4px;
+    position: absolute;
+    right: 60px;
+}
+
+nav .selector p {
+    color: rgba(240, 240, 250, .9);
+    font-size: 9.8px;
+    letter-spacing: .6px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav i {
+    display: block;
+    font-size: 0;
+}
+
