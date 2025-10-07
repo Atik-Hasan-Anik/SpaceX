@@ -24,6 +24,7 @@ nav {
     height: 70px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 0 60px;
     position: relative;
@@ -68,8 +69,8 @@ nav .selector {
     padding: 0 10px;
     border: .1px solid rgba(255, 255, 255, 0.26);
     border-radius: 4px;
-    position: absolute;
-    right: 60px;
+    /* position: absolute;
+    right: 60px; */
 }
 
 nav .selector p {
@@ -530,3 +531,143 @@ footer .footer-item p {
 
 
 }
+
+
+@media only screen and (width >=480px) and (width <=768px) {
+    nav {
+
+        padding: 0px 8px 0 0;
+        margin-top: 10px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    nav .logo svg {
+        transform: translateX(-8px);
+        width: 200px;
+    }
+
+    nav i {
+
+        font-size: 1.5rem;
+    }
+
+    nav .eliment ul {
+        display: none;
+    }
+
+    nav .selector {
+        display: none;
+    }
+
+    main .top {
+        height: 100vh;
+    }
+
+    main .top video {
+        display: none;
+
+
+    }
+
+    main .top .mobile-video {
+        display: block;
+
+        scale: 1;
+        object-fit: cover;
+        object-position: 10px -120px;
+    }
+
+    main .top-text,
+    main .top-next-text,
+    main .top-next1 .top-next1-text {
+
+        position: absolute;
+        left: 15px;
+        top: 50%;
+        /* background-color: crimson; */
+        width: 80%;
+    }
+
+    main .top-text h2,
+    main .top-next-text h2,
+    main .top-next1-text h2 {
+        font-size: 2rem;
+        letter-spacing: .5px;
+        line-height: 38px;
+        font-family: arial;
+        color: rgba(255, 255, 255, 0.84);
+    }
+
+    main .top-text p,
+    main .top-next-text p,
+    main .top-next1-text p {
+        margin: 8px 0 0 0;
+        font-size: .9rem;
+        font-weight: 250;
+
+        line-height: 18px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+
+    main .top-text button {
+        font-size: .72rem;
+        font-weight: 500;
+        margin: 30px 0 0 0;
+        height: 45px;
+        padding: 0 20px;
+
+    }
+
+    main .top-next {
+        height: 100vh;
+
+    }
+
+    main .top-next img {
+
+        display: none;
+
+    }
+
+    main .top-next .top-next-mobile {
+        display: block;
+        height: 100vh;
+        box-shadow: inset 0 -700px 30px rgba(0, 0, 0, 0.745);
+        object-fit: cover;
+        width: 100%;
+
+    }
+
+
+
+    main .top-next1 video {
+        display: none;
+    }
+
+    main .top-next1 .top-next1-mobile {
+        display: block;
+    }
+
+}
+
+
+
+@media only screen and (width >=769px) and (width <=1080px){
+    nav .eliment ul {
+        margin: 0 20px;
+        gap: 10px;
+    }
+
+    nav .selector {
+       position: relative;
+    }
+}
+
+
+
+
